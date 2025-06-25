@@ -1,4 +1,4 @@
-package com.example.smartwaste.api;
+package com.example.cohia.api;
 
 import android.graphics.RectF;
 import android.os.Parcel;

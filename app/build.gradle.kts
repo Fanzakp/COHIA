@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.smartwaste"
+    namespace = "com.example.cohia"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.smartwaste"
+        applicationId = "com.example.cohia"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

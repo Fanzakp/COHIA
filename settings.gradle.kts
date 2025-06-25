@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SmartWaste"
+rootProject.name = "COHIA"
 include(":app")
  

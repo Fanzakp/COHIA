@@ -1,7 +1,7 @@
-package com.example.smartwaste;
+package com.example.cohia;
 
 import android.graphics.Bitmap;
-import com.example.smartwaste.api.RoboflowAPI;
+import com.example.cohia.api.RoboflowAPI;
 import java.util.List;
 
 // Kelas Singleton untuk menyimpan data sementara antar Activity

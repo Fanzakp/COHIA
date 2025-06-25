@@ -1,4 +1,4 @@
-package com.example.smartwaste;
+package com.example.cohia;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -7,7 +7,7 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.Base64;
 
-import com.example.smartwaste.api.RoboflowAPI;
+import com.example.cohia.api.RoboflowAPI;
 
 import java.io.ByteArrayOutputStream;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.example.smartwaste;
+package com.example.cohia;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

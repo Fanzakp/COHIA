@@ -1,4 +1,4 @@
-package com.example.smartwaste;
+package com.example.cohia;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -35,15 +35,13 @@ import androidx.camera.view.PreviewView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
 
-import com.example.smartwaste.api.RoboflowAPI;
+import com.example.cohia.api.RoboflowAPI;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.common.util.concurrent.ListenableFuture;
 
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.text.SimpleDateFormat;
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;

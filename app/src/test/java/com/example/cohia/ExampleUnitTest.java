@@ -1,4 +1,4 @@
-package com.example.smartwaste;
+package com.example.cohia;
 
 import org.junit.Test;
 

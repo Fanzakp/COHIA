@@ -2,14 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Izin yang diperlukan untuk kamera dan internet -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <!-- Izin untuk menyimpan gambar ke galeri -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28" />
 
-    <!-- Mendeklarasikan bahwa aplikasi ini membutuhkan fitur kamera -->
     <uses-feature android:name="android.hardware.camera.any" />
 
     <application
@@ -24,9 +21,8 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
 
-        <!-- MainActivity sebagai launcher activity -->
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.cohia.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity">
@@ -36,22 +32,20 @@
             </intent-filter>
         </activity>
 
-        <!-- ResultActivity untuk menampilkan hasil deteksi -->
         <activity
-            android:name=".ResultActivity"
+            android:name="com.example.cohia.ResultActivity"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.example.cohia.MainActivity"
             tools:ignore="LockedOrientationActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.cohia.MainActivity" />
         </activity>
 
-        <!-- Provider untuk berbagi file -->
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.smartwaste.fileprovider"
+            android:authorities="cohia.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
